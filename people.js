@@ -9,3 +9,15 @@ const names = require("./names");
 
 // 2 - Importing hobbies function w/ require method (as opposed to the more modern 'import')
 const hobbies = require("./hobbies");
+
+// Function: accepts no parameters, uses imported function to create an object called user as an example
+
+function userInfos() {
+    const user = names("Cosimo", "Calligari");
+    return {
+        Name: `${user.firstName} ${user.lastName}`,
+        Hobbies: hobbies("Cucina", "Cinema", "Cucito").hobbies.join(", ")
+    }
+};
+
+console.log(userInfos());

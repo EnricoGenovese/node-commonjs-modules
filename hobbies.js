@@ -21,7 +21,7 @@
 
 const hobbiesObject = (hobby1, hobby2, hobby3) => ({ hobbies: [hobby1, hobby2, hobby3] });
 
-const Userhobbies = hobbiesObject("hobby1Placeholder", "hooby2Placeholder", "hobby3Placeholder");
-console.log(Userhobbies);
+// const userHobbiesPlaceholder = hobbiesObject("hobby1Placeholder", "hooby2Placeholder", "hobby3Placeholder");
+// console.log(userHobbiesPlaceholder);
 
 module.exports = hobbiesObject;
