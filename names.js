@@ -17,7 +17,8 @@
 const fullNameObject = (firstName, lastName) => ({ firstName: firstName, lastName: lastName })
 
 // Log of the object w/ placeholder parameters to the properties
-console.log(fullNameObject("firstNamePlaceholder", "lastNamePlaceholder"));
+const fullName = fullNameObject("firstNamePlaceholder", "lastNamePlaceholder")
+console.log(fullName);
 
 // Exporting the object w/ module.exports;
 module.exports = fullNameObject;
