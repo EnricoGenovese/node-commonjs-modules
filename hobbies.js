@@ -21,6 +21,8 @@
 
 const hobbiesObject = (hobby1, hobby2, hobby3) => ({ hobbies: [hobby1, hobby2, hobby3] });
 
+// Log of the object w/ placeholder parameters to the properties
+
 // const userHobbiesPlaceholder = hobbiesObject("hobby1Placeholder", "hooby2Placeholder", "hobby3Placeholder");
 // console.log(userHobbiesPlaceholder);
 

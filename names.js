@@ -17,6 +17,7 @@
 const fullNameObject = (firstName, lastName) => ({ firstName: firstName, lastName: lastName })
 
 // Log of the object w/ placeholder parameters to the properties
+
 // const fullNamePlaceholder = fullNameObject("firstNamePlaceholder", "lastNamePlaceholder")
 // console.log(fullNamePlaceholder);
 

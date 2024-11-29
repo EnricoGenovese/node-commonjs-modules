@@ -15,8 +15,8 @@ const hobbies = require("./hobbies");
 function userInfos() {
     const user = names("Cosimo", "Calligari");
     return {
-        Name: `${user.firstName} ${user.lastName}`,
-        Hobbies: hobbies("Cucina", "Cinema", "Cucito").hobbies.join(", ")
+        fullName: `${user.firstName} ${user.lastName}`,
+        hobbies: hobbies("Cucina", "Cinema", "Cucito").hobbies.join(", ")
     }
 };
 
